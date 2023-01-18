@@ -14,8 +14,8 @@ function sayHi(username) {
 
 // 호출부(function call): 함수를 사용(실행)하는 영역
 sayHi("지수");
-sayHi("명진");
-sayHi("주환");
+sayHi("명진잉");
+sayHi("주환잉");
 
 function cube(num) {
   return num ** 3;
@@ -28,11 +28,11 @@ console.log(`a = ${a}, b = ${b}`);
 // 2. 파라미터, 입력값을 저장하는 변수!
 // 필요에 따라 개수 조절 가능
 // 라면 생성 자판기(함수): 선택 불가(파라미터: 0개)
-function createRamen() {
-  return "🍜라면";
+function createBread() {
+  return "🥖빵";
 }
-const ramen = createRamen();
-console.log(ramen);
+const bread = createBread();
+console.log(bread);
 
 // 만두 생성 자판기(함수): 재료 1개 선택 가능(파라미터: 1개)
 function createMandoo(ingredient) {
