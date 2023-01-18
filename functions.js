@@ -14,8 +14,8 @@ function sayHi(username) {
 
 // 호출부(function call): 함수를 사용(실행)하는 영역
 sayHi("지수");
-sayHi("호크");
-sayHi("쿠마");
+sayHi("명진");
+sayHi("주환");
 
 function cube(num) {
   return num ** 3;
